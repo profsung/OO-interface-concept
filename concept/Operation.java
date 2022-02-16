@@ -4,7 +4,7 @@ import java.util.Random;
 
 public interface Operation {
 
-	int N_OPERATIONS = 4; // public static const
+	int N_OPERATIONS = 4; // public static final
 
 	int increase(int n); // public abstract
 

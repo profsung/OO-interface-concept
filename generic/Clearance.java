@@ -2,6 +2,6 @@ package generic;
 
 public interface Clearance {
 
-	double getClearance();
+	double getClearance(); // public abstract
 	
 }

@@ -14,7 +14,7 @@ public class Cone implements Clearance {
 
 	@Override
 	public double getClearance() {
-		return topDiameter < bottomDiameter ? topDiameter : bottomDiameter;
+		return topDiameter > bottomDiameter ? topDiameter : bottomDiameter;
 	}
 	
 }

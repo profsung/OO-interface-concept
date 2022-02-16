@@ -12,5 +12,5 @@ public class Car implements Clearance {
 	public double getClearance() {
 		return height;
 	}
-	
+
 }

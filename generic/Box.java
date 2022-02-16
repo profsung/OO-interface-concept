@@ -16,5 +16,5 @@ public class Box implements Clearance {
 	public double getClearance() {
 		return Math.min(height, Math.min(width, length));
 	}
-	
+
 }
